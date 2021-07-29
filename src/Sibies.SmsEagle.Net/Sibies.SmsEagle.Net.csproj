@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>README.md</PackageLicenseFile>
+    <PackageProjectUrl>www.sibies.ro</PackageProjectUrl>
+    <PackageTags>sms smseagle</PackageTags>
+    <Copyright>Copyright © Sibies Soft</Copyright>
+    <Company>Sibies Soft</Company>
+    <Authors>Sibies Soft</Authors>
+    <RepositoryUrl>https://github.com/sibies/Sibies.SmsEagle.Net</RepositoryUrl>
+    <PackageIcon>logo_SMSEagle_black_www.jpg</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Responses\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\logo_SMSEagle_black_www.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
