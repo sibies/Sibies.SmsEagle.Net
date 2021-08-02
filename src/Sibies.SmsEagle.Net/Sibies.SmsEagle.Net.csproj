@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/sibies/Sibies.SmsEagle.Net</RepositoryUrl>
     <PackageIcon>logo_SMSEagle_black_www.jpg</PackageIcon>
     <PackageIconUrl />
+    <Description>SmsEagle Gateway .NET Client</Description>
   </PropertyGroup>
 
   <ItemGroup>
